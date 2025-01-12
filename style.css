@@ -29,7 +29,12 @@
     font-size: 18px;
     border-radius: 8px;
     margin-top: 25px;
-    /* transition: background-color 0.3s; */
+}
+#explor-bt:hover{
+background-color: #e8a60d;
+color: #0E0E0E;
+transition: background-color 0.3s;
+cursor: pointer;
 }
 main{
     max-width: 1600px;
@@ -57,10 +62,8 @@ line-height: 20px;
 .donate-box:hover{
     background-color: aqua;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
-
-
-
 /* banner section style */
 .banner{
     margin: 25px 130px 80px 130px;
@@ -109,6 +112,7 @@ margin-bottom: 15px;
 .vision-card-container .card1:hover{
     background-color: aquamarine;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 .vision-card-container .card1 button{
 background-color: #8e428a;
@@ -118,6 +122,7 @@ color: #0E0E0E;
     background-color: rgb(15, 15, 15);
     color: #ffffff;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 
@@ -133,6 +138,7 @@ color: #0E0E0E;
 .vision-card-container .card2:hover{
     background-color: rgb(10, 119, 165);
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 .vision-card-container .card2 button{
     background-color: #09A15C;
@@ -140,6 +146,7 @@ color: #0E0E0E;
 .vision-card-container .card2 button:hover{
     background-color: rgb(2, 199, 249);
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 
@@ -154,6 +161,7 @@ color: #0E0E0E;
 .vision-card-container .card3:hover{
     background-color: rgb(233, 247, 157);
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 .vision-card-container .card3 button{
     background-color: #75afe9;
@@ -161,6 +169,7 @@ color: #0E0E0E;
 .vision-card-container .card3 button:hover{
     background-color: rgb(2, 199, 249);
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 
@@ -195,6 +204,8 @@ margin-bottom: 25px;
 }
 .cards1 button:hover{
     background-color: #75afe9 ;
+    transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .cards2 button{
@@ -248,6 +259,7 @@ form input[type="text"]{
     color: black;
     background-color: darkgray;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .subscriner{
@@ -293,6 +305,12 @@ padding: 40px 330px 20px 330px;
     font-size: 16px;
     background-color: #021433;
     color: #ffffff;
+}
+.sub-form button:hover{
+    background-color: rgb(8, 131, 131);
+    color: #f8f9fb;
+    transition: background-color 0.3s;
+    cursor: pointer;
 }
 .small{
     font-size: 18px;
